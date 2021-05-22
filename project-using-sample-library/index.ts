@@ -1,5 +1,6 @@
 // Here we import a common module from the root exports
 import { timeout } from 'sample-typescript-library';
+
 // Here we import node-specific code
 import { getPackage } from 'sample-typescript-library/node';
 
