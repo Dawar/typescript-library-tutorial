@@ -59,7 +59,7 @@ So what follows is a short tutorial of a process that worked for me and (hopeful
 }
 ```
 
-To explain what we are doing here, we want to compile and export all our top level exports, sub modules, etc. and **output them to the root directory.** This is because the quiry way package.json / npm works which I can't clearly explain but basically requires that any importable folders be at the top of the package (instead of lets say in a *dist/* folder)
+To explain what we are doing here, we want to compile and export all our top level exports, sub modules, etc. and **output them to the root directory.** This is because of the quiry way package.json / npm works which I can't clearly explain but basically requires that any importable folders be at the top of the package (instead of lets say in a *dist/* folder)
 
 3. Lastly for the top-level exports include them in your package.json:
 
@@ -74,4 +74,5 @@ To explain what we are doing here, we want to compile and export all our top lev
 4. After you build your project (tsc) what you should end up with is all your src/ folders and files getting outputted with types into the main root folder. Yes yes I know it feels messy, but it works dam well. Feel free to now distribute this as-is and see how easy it is to import from the top level and sub modules!
 
 Really hope this helps some folks, I get irrationally angry thinking about how much time I spent solving a problem that should be so straightforward!
-    
+
+As a BONUS this method can be used to create cross-enivornment libraries, for example where you have a sub folder with NodeJS specific exports and another with common exports used in any environment. That's actually the primary use case that drove me to this configuration.
