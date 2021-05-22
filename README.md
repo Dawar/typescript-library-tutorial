@@ -37,7 +37,7 @@ So what follows is a short tutorial of a process that worked for me and (hopeful
       - sm1-export-1.ts
       - sm1-export-2.ts
 
-2. Configure your tsconfig.json like so. Important parts are the includes, excludes, baseDir and outDir.
+2. Configure your tsconfig.json like so. Important parts are the include, exclude, baseUrl, outDir and declaration settings.
 
 ```json
 {
