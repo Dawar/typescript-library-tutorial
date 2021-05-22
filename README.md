@@ -5,7 +5,7 @@ A tutorial describing my very simple, dependency-less, only needs one package.js
 ## Spiel
 
 
-So, you want to build a Typescript library with sub modules or sub directories as well as top level exports? Similiar to popular libraries like Angular Material or rxjs or lodash, where you can both import from the main package like this:
+So, you want to build a Typescript library with sub modules or sub directories as well as top level exports? Similiar to popular libraries like rxjs where you can both import from the main package and sub packages like this:
 
 ```ts
 import { Observable } from 'rxjs';
