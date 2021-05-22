@@ -1,5 +1,5 @@
 # typescript-library-tutorial
-A tutorial describing my very simple, dependency-less way to export a Typescript library with sub-modules to be consumed in other TS and JS projects.
+A tutorial describing my very simple, dependency-less, only needs one package.json — way to export a Typescript library with sub-modules to be consumed in other TS and JS projects.
 
 
 So you want to build a Typescript library with sub modules or sub directories as well as top level exports? Similiar to popular libraries like Angular Material or rxjs or lodash, where you can both import from the main package like this:
