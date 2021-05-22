@@ -1,0 +1,15 @@
+{
+  "name": "project-using-sample-library",
+  "version": "1.0.0",
+  "description": "This library consumes the sample library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sample-typescript-library": "file:../sample-typescript-library"
+  }
+}
