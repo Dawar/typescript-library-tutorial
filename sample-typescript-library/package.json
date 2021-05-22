@@ -1,0 +1,15 @@
+{
+  "name": "sample-typescript-library",
+  "version": "1.0.0",
+  "description": "Sample library containing browser-only, node-only and common exports for the typescript-library-tutorial.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^15.6.0"
+  }
+}
