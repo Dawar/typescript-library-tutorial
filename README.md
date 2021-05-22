@@ -76,24 +76,24 @@ To explain what we are doing here, we want to compile and export all our top lev
   - tsconfig.json
   - index.d.ts
   - index.js
-    - toplevelexport1.d.ts
-    - toplevelexport1.js
-    - toplevelexport2.d.ts
-    - toplevelexport2.js
-    - submodule1/
-      - index.d.ts
-      - index.js
-      - sm1-export-1.d.ts
-      - sm1-export-1.js
-      - sm1-export-2.d.ts
-      - sm1-export-2.js
-    - submodule2/
-      - index.d.ts
-      - index.js
-      - sm2-export-1.d.ts
-      - sm2-export-1.js
-      - sm2-export-2.d.ts
-      - sm2-export-2.js
+  - toplevelexport1.d.ts
+  - toplevelexport1.js
+  - toplevelexport2.d.ts
+  - toplevelexport2.js
+  - submodule1/
+    - index.d.ts
+    - index.js
+    - sm1-export-1.d.ts
+    - sm1-export-1.js
+    - sm1-export-2.d.ts
+    - sm1-export-2.js
+  - submodule2/
+    - index.d.ts
+    - index.js
+    - sm2-export-1.d.ts
+    - sm2-export-1.js
+    - sm2-export-2.d.ts
+    - sm2-export-2.js
   - src/
 
 Really hope this helps some folks, I get irrationally angry thinking about how much time I spent solving a problem that should be so straightforward!
