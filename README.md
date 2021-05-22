@@ -59,7 +59,7 @@ So what follows is a short tutorial of a process that worked for me and (hopeful
 }
 ```
 
-To explain what we are doing here, we want to compile and export all our top level exports, sub modules, etc. and output them to the root directory. This is because the quiry way package.json / npm works which I can't clearly explain but basically requires that any importable folders be at the top of the package (instead of lets say in a dist/ folder)
+To explain what we are doing here, we want to compile and export all our top level exports, sub modules, etc. and **output them to the root directory.** This is because the quiry way package.json / npm works which I can't clearly explain but basically requires that any importable folders be at the top of the package (instead of lets say in a *dist/* folder)
 
 3. Lastly for the top-level exports include them in your package.json:
 
