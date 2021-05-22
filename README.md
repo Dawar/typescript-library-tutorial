@@ -71,7 +71,7 @@ To explain what we are doing here, we want to compile and export all our top lev
 }
 ```
 
-4. After you build your project (tsc) what you should end up with is all your src/ folders and files getting outputted with types into the main root folder. Feel free to now distribute this as-is and see how easy it is to import from the top level and sub modules!
+4. After you build your project (tsc) what you should end up with is all your src/ folders and files getting outputted with types into the main root folder. Yes yes I know it feels messy, but it works dam well. Feel free to now distribute this as-is and see how easy it is to import from the top level and sub modules!
 
 Really hope this helps some folks, I get irrationally angry thinking about how much time I spent solving a problem that should be so straightforward!
     
