@@ -4,7 +4,7 @@ A tutorial describing my very simple, dependency-less way to export a Typescript
 
 So you want to build a Typescript library with sub modules or sub directories as well as top level exports? Similiar to popular libraries like Angular Material or rxjs or lodash, where you can both import from the main package like this:
 
-ts```
+```ts
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 ```
