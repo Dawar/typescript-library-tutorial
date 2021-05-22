@@ -66,7 +66,7 @@ To explain what we are doing here, we want to compile and export all our top lev
 ```json
 {
 ...
-  "main": "./index.d.ts",
+  "main": "./index.ts",
   "types": "./index.d.ts",
 }
 ```
