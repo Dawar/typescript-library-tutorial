@@ -98,4 +98,4 @@ To explain what we are doing here, we want to compile and export all our top lev
 
 Really hope this helps some folks, I get irrationally angry thinking about how much time I spent solving a problem that should be so straightforward!
 
-As a BONUS this method can be used to create cross-environment libraries, for example where you have a sub folder with NodeJS specific exports and another with common exports used in any environment. That's actually the primary use case that drove me to this configuration.
+As a BONUS this method can be used to create cross-environment libraries, for example where you have a sub folder with NodeJS specific exports and another with common exports used in any environment. That's actually the primary use case that drove me to this configuration — I wanted a way to structure a utility library that I could share between a NodeJS backend and various Angular front-ends. This structure was the only one of many I tried that was surprisingly able to achieve exactly what I needed.
