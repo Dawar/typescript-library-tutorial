@@ -12,7 +12,7 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 ```
 
-The question is why does this seem almost impossible to do with Typescript in your own projects, especially since there are so many libraries out there that are bundeled this way? I spent hours trying to figure this out and came across actual libraries that are designed to help you with this type of bundeling. But I hated the thought of relying on an entire project to do something that should be simple!
+The question is why does this seem almost impossible to do with Typescript in your own projects, especially since there are so many libraries out there that are bundeled this way? I spent hours trying to figure this out and came across entire programs that are designed to help you with this type of bundeling. But I hated the thought of relying on an entire project to do something that should be simple!
 
 Also if you've tried Googling this problem you know that there doesn't seem to be a single decent tutorial on earth that gives you an answer you can actually use. Some tutorials are missing top-level imports, some are missing the tsconfig, some say you can solve the problem with webpack, but what gives!? I'm just trying to let my users import from a subfolder, why is this so hard?
 
