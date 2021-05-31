@@ -1,0 +1,14 @@
+# Originally contributed from andrew-w-ross (issue #1)
+# The following .gitignore is useful in cases where you want to
+# commit libraries following this structure without generated dist files.
+
+# Don't just use * or the exclusions below won't work
+/*
+# Add files you need to exclusions
+!LICENSE
+!README.md
+!package.json
+!tsconfig.json
+!yarn.lock
+# Add your directory
+!src/
